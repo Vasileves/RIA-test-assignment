@@ -1,0 +1,250 @@
+[     581ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    1261ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    1311ms] [ERROR] In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <button> button 
+
+  ...
+    <PopChild pop={false} isPresent={true} anchorX="left" anchorY="top" root={undefined}>
+      <PopChildMeasure isPresent={true} childRef={{current:null}} sizeRef={{...}} pop={false}>
+        <motion.div className="absolute i..." initial={{x:"100%"}} animate={{x:0}} exit={{x:"-100%"}} ...>
+          <div className="absolute i..." style={{...}} ref={function useMotionRef.useCallback}>
+            <ScreenContent id="home">
+              <HomeScreen>
+                <div className="relative h...">
+                  <div>
+                  <div className="absolute i...">
+                    <div className="flex flex-...">
+                      <div className="flex flex-...">
+                        <div>
+                        <div>
+                          <div>
+                          <div className="mt-[12px] ...">
+                            <div className="absolute i...">
+>                             <button
+>                               onClick={function onClick}
+>                               aria-label="Previous card"
+>                               className="absolute -left-[259.5px] opacity-60"
+>                             >
+                                <WalletCard card={{id:"primary", ...}}>
+                                  <motion.button layoutId={undefined} onClick={undefined} className="relative s..." ...>
+>                                   <button
+>                                     onClick={undefined}
+>                                     className="relative shrink-0 overflow-hidden rounded-[16px] shadow-[0_1px_2px_0_..."
+>                                     tabIndex={0}
+>                                     style={{width:295,height:178,background:"#ff6a00"}}
+>                                     ref={function useMotionRef.useCallback}
+>                                   >
+                              ...
+                      ...
+                  ...
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[    1313ms] [ERROR] <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. button <button> @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[    1389ms] Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+    at throwOnHydrationMismatch (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3318:56)
+    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6758:918)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9555:97)
+    at workLoopConcurrentByScheduler (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9551:58)
+    at renderRootConcurrent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9534:71)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64)
+[    1414ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    1472ms] [WARNING] Image with src "/figma-assets/7a9a8c5c4294de4010821f854cd84f2b8b292776.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    1714ms] [LOG] [Fast Refresh] done in 415ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   12852ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   13029ms] [ERROR] ./src/components/WalletCard.tsx:87:7
+Expected corresponding JSX closing tag for <motion.div>
+  85 |         </div>
+  86 |       </div>
+> 87 |     </motion.button>
+     |       ^^^^^^^^^^^^^
+  88 |   );
+  89 | }
+  90 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/WalletCard.tsx [Client Component Browser]
+    ./src/screens/HomeScreen.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/WalletCard.tsx [Client Component SSR]
+    ./src/screens/HomeScreen.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[   13087ms] [ERROR] ./src/components/WalletCard.tsx:87:7
+Expected corresponding JSX closing tag for <motion.div>
+  85 |         </div>
+  86 |       </div>
+> 87 |     </motion.button>
+     |       ^^^^^^^^^^^^^
+  88 |   );
+  89 | }
+  90 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/WalletCard.tsx [Client Component Browser]
+    ./src/screens/HomeScreen.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/WalletCard.tsx [Client Component SSR]
+    ./src/screens/HomeScreen.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[   13189ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   14016ms] [ERROR] ./src/components/WalletCard.tsx:87:7
+Expected corresponding JSX closing tag for <motion.div>
+  85 |         </div>
+  86 |       </div>
+> 87 |     </motion.button>
+     |       ^^^^^^^^^^^^^
+  88 |   );
+  89 | }
+  90 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/WalletCard.tsx [Client Component Browser]
+    ./src/screens/HomeScreen.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/WalletCard.tsx [Client Component SSR]
+    ./src/screens/HomeScreen.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[   14119ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   14363ms] [ERROR] ./src/components/WalletCard.tsx:87:7
+Expected corresponding JSX closing tag for <motion.div>
+  85 |         </div>
+  86 |       </div>
+> 87 |     </motion.button>
+     |       ^^^^^^^^^^^^^
+  88 |   );
+  89 | }
+  90 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/WalletCard.tsx [Client Component Browser]
+    ./src/screens/HomeScreen.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/WalletCard.tsx [Client Component SSR]
+    ./src/screens/HomeScreen.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[   14363ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[   14379ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[   14412ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   14514ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[   14555ms] Error: ./src/components/WalletCard.tsx:87:7
+Expected corresponding JSX closing tag for <motion.div>
+  85 |         </div>
+  86 |       </div>
+> 87 |     </motion.button>
+     |       ^^^^^^^^^^^^^
+  88 |   );
+  89 | }
+  90 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/WalletCard.tsx [Client Component Browser]
+    ./src/screens/HomeScreen.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/WalletCard.tsx [Client Component SSR]
+    ./src/screens/HomeScreen.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./src/components/WalletCard.tsx:87:7)
+    at Object.getCompilationErrors (file:///Users/sethlukin/Documents/GitHub/RIA-test-assignment/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/sethlukin/Documents/GitHub/RIA-test-assignment/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/sethlukin/Documents/GitHub/RIA-test-assignment/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/sethlukin/Documents/GitHub/RIA-test-assignment/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/sethlukin/Documents/GitHub/RIA-test-assignment/node_modules/next/dist/server/base-server.js:1745:26)
+[   14552ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   14581ms] [ERROR] ./src/components/WalletCard.tsx:87:7
+Expected corresponding JSX closing tag for <motion.div>
+  85 |         </div>
+  86 |       </div>
+> 87 |     </motion.button>
+     |       ^^^^^^^^^^^^^
+  88 |   );
+  89 | }
+  90 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/WalletCard.tsx [Client Component Browser]
+    ./src/screens/HomeScreen.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/WalletCard.tsx [Client Component SSR]
+    ./src/screens/HomeScreen.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   14647ms] [ERROR] ./src/components/WalletCard.tsx:87:7
+Expected corresponding JSX closing tag for <motion.div>
+  85 |         </div>
+  86 |       </div>
+> 87 |     </motion.button>
+     |       ^^^^^^^^^^^^^
+  88 |   );
+  89 | }
+  90 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/WalletCard.tsx [Client Component Browser]
+    ./src/screens/HomeScreen.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/WalletCard.tsx [Client Component SSR]
+    ./src/screens/HomeScreen.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   14664ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226

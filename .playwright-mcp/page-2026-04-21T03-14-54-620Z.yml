@@ -1,0 +1,168 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: 9:41
+      - generic [ref=e9]:
+        - img [ref=e10]
+        - img [ref=e15]
+        - img [ref=e19]
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e28]: Tiago L.
+          - button "Help" [ref=e29]:
+            - img "Help" [ref=e30]
+        - generic [ref=e32]:
+          - generic [ref=e35]:
+            - generic [ref=e37]:
+              - generic [ref=e38]: Set up Face ID
+              - generic [ref=e39]: Log in faster
+            - generic [ref=e42]:
+              - generic [ref=e43]: Unlock transfers
+              - generic [ref=e44]: Complete your profile
+            - generic [ref=e47]:
+              - generic [ref=e48]: Secure your account
+              - generic [ref=e49]: Add extra protection
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - heading "Your Wallet" [level=2] [ref=e53]
+              - generic [ref=e54]:
+                - button "Reorder" [ref=e55]:
+                  - generic [ref=e56]: Reorder
+                - button "Add" [ref=e57]:
+                  - generic [ref=e58]: Add
+            - generic [ref=e60]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: CHASE DEBIT
+                  - generic:
+                    - generic: Available Balance
+                    - generic:
+                      - generic: $
+                      - generic: 1,250.00
+                  - generic:
+                    - generic: •••• 4892
+              - generic [ref=e62]:
+                - generic [ref=e65]: SALARY CHASE
+                - generic [ref=e66]:
+                  - generic [ref=e67]: Available Balance
+                  - generic [ref=e68]:
+                    - generic [ref=e69]: $
+                    - generic [ref=e70]: 1,250.00
+                - generic [ref=e72]: •••• 4289
+                - generic:
+                  - img
+                  - generic: Frozen
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: VIRTUAL SUBS
+                  - generic:
+                    - generic: Available Balance
+                    - generic:
+                      - generic: $
+                      - generic: 1,250.00
+                  - generic:
+                    - generic: •••• 9932
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: SHARED GROCERIES
+                  - generic:
+                    - generic: Available Balance
+                    - generic:
+                      - generic: $
+                      - generic: 1,250.00
+                  - generic:
+                    - generic: •••• 5521
+          - generic [ref=e74]:
+            - button "Add Money" [ref=e75]:
+              - generic [ref=e78]: Add Money
+            - button "Send" [ref=e79]:
+              - generic [ref=e82]: Send
+            - button "Manage Card" [ref=e83]:
+              - generic [ref=e86]: Manage Card
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - heading "Recent Activity" [level=2] [ref=e89]
+              - button "See all" [ref=e90]
+            - generic [ref=e91]:
+              - generic [ref=e92]:
+                - generic [ref=e95]:
+                  - generic [ref=e96]: Amazon
+                  - generic [ref=e97]: Today, 10:42 AM
+                - generic [ref=e98]: "-$84.50"
+              - generic [ref=e100]:
+                - generic [ref=e103]:
+                  - generic [ref=e104]: Starbucks
+                  - generic [ref=e105]: Oct 5, 3:17 PM
+                - generic [ref=e106]: "-$4.75"
+              - generic [ref=e108]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: Sarah Connor
+                  - generic [ref=e113]: Yesterday
+                - generic [ref=e114]: +$120.00
+        - generic [ref=e116]:
+          - button "Home" [ref=e117]:
+            - img [ref=e119]
+            - generic [ref=e121]: Home
+          - button "Contacts" [ref=e122]:
+            - img [ref=e124]
+            - generic [ref=e126]: Contacts
+          - button "Send Money" [ref=e127]:
+            - generic [ref=e130]: Send Money
+          - button "Track" [ref=e131]:
+            - img [ref=e133]
+            - generic [ref=e135]: Track
+          - button "Locations" [ref=e136]:
+            - img [ref=e138]
+            - generic [ref=e140]: Locations
+      - generic [ref=e153]:
+        - generic [ref=e156]:
+          - generic [ref=e159]: SALARY CHASE
+          - generic [ref=e160]:
+            - generic [ref=e161]: Available Balance
+            - generic [ref=e162]:
+              - generic [ref=e163]: $
+              - generic [ref=e164]: 1,250.00
+          - generic [ref=e166]: •••• 4289
+          - generic:
+            - img
+            - generic: Frozen
+        - generic [ref=e168]:
+          - heading "Manage card" [level=1] [ref=e172]
+          - generic [ref=e174]:
+            - button "Card info Number, expiry and CVV" [ref=e175]:
+              - img [ref=e177]
+              - generic [ref=e179]:
+                - paragraph [ref=e180]: Card info
+                - paragraph [ref=e181]: Number, expiry and CVV
+              - img [ref=e182]
+            - button "View PIN Tap to reveal — use carefully" [ref=e186]:
+              - img [ref=e188]
+              - generic [ref=e190]:
+                - paragraph [ref=e191]: View PIN
+                - paragraph [ref=e192]: Tap to reveal — use carefully
+              - img [ref=e193]
+            - button "Unfreeze card Resume all transactions" [ref=e240]:
+              - img [ref=e200]
+              - generic [ref=e202]:
+                - paragraph [ref=e203]: Unfreeze card
+                - paragraph [ref=e204]: Resume all transactions
+              - img [ref=e205]
+            - button "Block card Use if the card is lost or stolen" [ref=e209]:
+              - img [ref=e211]
+              - generic [ref=e213]:
+                - paragraph [ref=e214]: Block card
+                - paragraph [ref=e215]: Use if the card is lost or stolen
+              - img [ref=e216]
+            - button "Remove from wallet Delete this card from the app" [ref=e220]:
+              - img [ref=e222]
+              - generic [ref=e224]:
+                - paragraph [ref=e225]: Remove from wallet
+                - paragraph [ref=e226]: Delete this card from the app
+              - img [ref=e227]
+  - button "Open Next.js Dev Tools" [ref=e148] [cursor=pointer]:
+    - img [ref=e149]
+  - alert [ref=e152]

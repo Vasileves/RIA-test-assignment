@@ -1,0 +1,228 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: 9:41
+      - generic [ref=e9]:
+        - img [ref=e10]
+        - img [ref=e15]
+        - img [ref=e19]
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e28]: Tiago L.
+        - button "Help" [ref=e29]:
+          - img "Help" [ref=e30]
+      - generic [ref=e32]:
+        - generic [ref=e35]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: Set up Face ID
+            - generic [ref=e39]: Log in faster
+          - generic [ref=e42]:
+            - generic [ref=e43]: Unlock transfers
+            - generic [ref=e44]: Complete your profile
+          - generic [ref=e47]:
+            - generic [ref=e48]: Secure your account
+            - generic [ref=e49]: Add extra protection
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - heading "Your Wallet" [level=2] [ref=e53]
+            - generic [ref=e54]:
+              - button "Reorder" [ref=e55]:
+                - generic [ref=e56]: Reorder
+              - button "Add" [ref=e57]:
+                - generic [ref=e58]: Add
+          - generic [ref=e60]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: CHASE DEBIT
+                      - button "Rename card"
+                    - generic:
+                      - generic: Available Balance
+                      - generic:
+                        - generic: $
+                        - generic: 1,250.00
+                    - generic:
+                      - generic: •••• 4892
+                      - button "Show card details"
+                  - generic:
+                    - generic: CHASE DEBIT
+                    - generic:
+                      - generic: Card number
+                      - generic:
+                        - generic: 4892 1234 5678 9012
+                        - img
+                    - generic:
+                      - generic:
+                        - generic: Expires
+                        - generic:
+                          - generic: 09/28
+                          - img
+                      - generic:
+                        - generic: CVV
+                        - generic:
+                          - generic: "412"
+                          - img
+                    - generic:
+                      - generic: Holder
+                      - generic:
+                        - generic: TIAGO LIMONE
+                        - img
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - generic [ref=e66]: SALARY CHASE
+                  - button "Rename card" [ref=e67]
+                - generic:
+                  - generic: Available Balance
+                  - generic:
+                    - generic: $
+                    - generic: 1,250.00
+                - generic [ref=e68]:
+                  - generic [ref=e69]: •••• 4289
+                  - button "Show card details" [ref=e70]
+              - generic [ref=e71]:
+                - generic [ref=e72]: SALARY CHASE
+                - generic [ref=e73]:
+                  - generic [ref=e74]: Card number
+                  - generic [ref=e75]:
+                    - generic [ref=e76]: 4289 1234 5678 9012
+                    - img [ref=e77]
+                - generic [ref=e79]:
+                  - generic [ref=e80]:
+                    - generic [ref=e81]: Expires
+                    - generic [ref=e82]:
+                      - generic [ref=e83]: 12/27
+                      - img [ref=e84]
+                  - generic [ref=e86]:
+                    - generic [ref=e87]: CVV
+                    - generic [ref=e88]:
+                      - generic [ref=e89]: "123"
+                      - img [ref=e90]
+                - generic [ref=e92]:
+                  - generic [ref=e93]: Holder
+                  - generic [ref=e94]:
+                    - generic [ref=e95]: TIAGO LIMONE
+                    - img [ref=e96]
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: VIRTUAL SUBS
+                      - button "Rename card"
+                    - generic:
+                      - generic: Available Balance
+                      - generic:
+                        - generic: $
+                        - generic: "42.00"
+                    - generic:
+                      - generic: •••• 9932
+                      - button "Show card details"
+                  - generic:
+                    - generic: VIRTUAL SUBS
+                    - generic:
+                      - generic: Card number
+                      - generic:
+                        - generic: 9932 1234 5678 9012
+                        - img
+                    - generic:
+                      - generic:
+                        - generic: Expires
+                        - generic:
+                          - generic: 03/29
+                          - img
+                      - generic:
+                        - generic: CVV
+                        - generic:
+                          - generic: "891"
+                          - img
+                    - generic:
+                      - generic: Holder
+                      - generic:
+                        - generic: TIAGO LIMONE
+                        - img
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: SHARED GROCERIES
+                      - button "Rename card"
+                    - generic:
+                      - generic: Available Balance
+                      - generic:
+                        - generic: $
+                        - generic: "318.50"
+                    - generic:
+                      - generic: •••• 5521
+                      - button "Show card details"
+                  - generic:
+                    - generic: SHARED GROCERIES
+                    - generic:
+                      - generic: Card number
+                      - generic:
+                        - generic: 5521 1234 5678 9012
+                        - img
+                    - generic:
+                      - generic:
+                        - generic: Expires
+                        - generic:
+                          - generic: 07/28
+                          - img
+                      - generic:
+                        - generic: CVV
+                        - generic:
+                          - generic: "204"
+                          - img
+                    - generic:
+                      - generic: Holder
+                      - generic:
+                        - generic: TIAGO LIMONE
+                        - img
+        - generic [ref=e98]:
+          - button "Add Money" [ref=e99]:
+            - generic [ref=e102]: Add Money
+          - button "Send" [ref=e103]:
+            - generic [ref=e106]: Send
+          - button "Manage Card" [ref=e107]:
+            - generic [ref=e110]: Manage Card
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - heading "Recent Activity" [level=2] [ref=e113]
+            - button "See all" [ref=e114]
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e119]:
+                - generic [ref=e120]: Amazon
+                - generic [ref=e121]: Today, 10:42 AM
+              - generic [ref=e122]: "-$84.50"
+            - generic [ref=e124]:
+              - generic [ref=e127]:
+                - generic [ref=e128]: Starbucks
+                - generic [ref=e129]: Oct 5, 3:17 PM
+              - generic [ref=e130]: "-$4.75"
+            - generic [ref=e132]:
+              - generic [ref=e135]:
+                - generic [ref=e136]: Sarah Connor
+                - generic [ref=e137]: Yesterday
+              - generic [ref=e138]: +$120.00
+      - generic [ref=e140]:
+        - button "Home" [ref=e141]:
+          - img [ref=e143]
+          - generic [ref=e145]: Home
+        - button "Contacts" [ref=e146]:
+          - img [ref=e148]
+          - generic [ref=e150]: Contacts
+        - button "Send Money" [ref=e151]:
+          - img [ref=e153]
+          - generic [ref=e155]: Send Money
+        - button "Track" [ref=e156]:
+          - img [ref=e158]
+          - generic [ref=e160]: Track
+        - button "Locations" [ref=e161]:
+          - img [ref=e163]
+          - generic [ref=e165]: Locations
+  - button "Open Next.js Dev Tools" [ref=e173] [cursor=pointer]:
+    - img [ref=e174]

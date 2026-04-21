@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --desktop-bg: #0a0a0a;
+  --app-bg: #f5f5f7;
+  --text-primary: #111827;
+  --text-muted: #6b7280;
+  --text-muted2: #666666;
+  --brand: #ff5533;
+  --brand-600: #ff6a00;
+  --divider: #e5e7eb;
+  --card-border: #e5e5e5;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--desktop-bg);
+  color: var(--text-primary);
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+.font-mono {
+  font-family: var(--font-geist-mono), ui-monospace, Menlo, monospace;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.preserve-3d { transform-style: preserve-3d; }
+.backface-hidden { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+
+/* Modal backdrops cover the full screen including the status-bar region.
+   The app viewport already fills the full device, so inset-0 is enough —
+   the status bar icons render on top via z-index and stay legible. */
+.modal-fullbleed {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200px 0; }
+  100% { background-position: 200px 0; }
+}
+.shimmer {
+  background-image: linear-gradient(90deg, #f1f1f4 0%, #e8e8eb 50%, #f1f1f4 100%);
+  background-size: 400px 100%;
+  animation: shimmer 1.2s linear infinite;
+}
+

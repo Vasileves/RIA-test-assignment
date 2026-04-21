@@ -1,0 +1,142 @@
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: 9:41
+      - generic [ref=e9]:
+        - img [ref=e10]
+        - img [ref=e15]
+        - img [ref=e19]
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e28]: Tiago L.
+          - button "Help" [ref=e29]:
+            - img "Help" [ref=e30]
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - generic [ref=e37]:
+                - generic [ref=e38]: Set up Face ID
+                - generic [ref=e39]: Log in faster
+              - generic [ref=e43]:
+                - generic [ref=e44]: Unlock transfers
+                - generic [ref=e45]: Complete your profile
+              - generic [ref=e49]:
+                - generic [ref=e50]: Secure your account
+                - generic [ref=e51]: Add extra protection
+            - generic [ref=e53]:
+              - generic [ref=e54]:
+                - heading "Your Wallet" [level=2] [ref=e55]
+                - generic [ref=e56]:
+                  - button "Reorder" [ref=e57]:
+                    - generic [ref=e58]: Reorder
+                  - button "Add" [ref=e59]:
+                    - generic [ref=e60]: Add
+              - generic [ref=e62]:
+                - button "Previous card" [ref=e63]:
+                  - generic [ref=e64]:
+                    - generic [ref=e67]: CHASE DEBIT
+                    - generic [ref=e68]:
+                      - generic [ref=e69]: Available Balance
+                      - generic [ref=e70]:
+                        - generic [ref=e71]: $
+                        - generic [ref=e72]: 1,250.00
+                    - generic [ref=e74]: •••• 4892
+                - button "Manage card" [ref=e76]:
+                  - generic:
+                    - generic:
+                      - generic: SALARY CHASE
+                    - generic:
+                      - generic: Available Balance
+                      - generic:
+                        - generic: $
+                        - generic: 1,250.00
+                    - generic:
+                      - generic: •••• 4289
+                - button "Next card" [ref=e89]:
+                  - generic [ref=e90]:
+                    - generic [ref=e93]: VIRTUAL SUBS
+                    - generic [ref=e94]:
+                      - generic [ref=e95]: Available Balance
+                      - generic [ref=e96]:
+                        - generic [ref=e97]: $
+                        - generic [ref=e98]: 1,250.00
+                    - generic [ref=e100]: •••• 9932
+          - generic [ref=e102]:
+            - button "Add Money" [ref=e103]:
+              - generic [ref=e106]: Add Money
+            - button "Send" [ref=e107]:
+              - generic [ref=e110]: Send
+            - button "Manage Card" [active] [ref=e111]:
+              - generic [ref=e114]: Manage Card
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - heading "Recent Activity" [level=2] [ref=e117]
+              - button "See all" [ref=e118]
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - generic [ref=e123]:
+                  - generic [ref=e124]: Amazon
+                  - generic [ref=e125]: Today, 10:42 AM
+                - generic [ref=e126]: "-$84.50"
+              - generic [ref=e128]:
+                - generic [ref=e131]:
+                  - generic [ref=e132]: Starbucks
+                  - generic [ref=e133]: Oct 5, 3:17 PM
+                - generic [ref=e134]: "-$4.75"
+              - generic [ref=e136]:
+                - generic [ref=e139]:
+                  - generic [ref=e140]: Sarah Connor
+                  - generic [ref=e141]: Yesterday
+                - generic [ref=e142]: +$120.00
+        - generic [ref=e144]:
+          - generic [ref=e147]: Home
+          - generic [ref=e150]: Contacts
+          - generic [ref=e154]: Send Money
+          - generic [ref=e157]: Track
+          - generic [ref=e160]: Locations
+      - generic [ref=e173]:
+        - generic [ref=e176]:
+          - generic [ref=e179]: SALARY CHASE
+          - generic [ref=e180]:
+            - generic [ref=e181]: Available Balance
+            - generic [ref=e182]:
+              - generic [ref=e183]: $
+              - generic [ref=e184]: 1,250.00
+          - generic [ref=e186]: •••• 4289
+        - generic [ref=e188]:
+          - heading "Manage card" [level=1] [ref=e192]
+          - generic [ref=e194]:
+            - button "Card info Number, expiry and CVV" [ref=e195]:
+              - img [ref=e197]
+              - generic [ref=e199]:
+                - paragraph [ref=e200]: Card info
+                - paragraph [ref=e201]: Number, expiry and CVV
+              - img [ref=e202]
+            - button "View PIN Tap to reveal — use carefully" [ref=e206]:
+              - img [ref=e208]
+              - generic [ref=e210]:
+                - paragraph [ref=e211]: View PIN
+                - paragraph [ref=e212]: Tap to reveal — use carefully
+              - img [ref=e213]
+            - button "Freeze card Pause all transactions temporarily" [ref=e217]:
+              - img [ref=e219]
+              - generic [ref=e221]:
+                - paragraph [ref=e222]: Freeze card
+                - paragraph [ref=e223]: Pause all transactions temporarily
+              - img [ref=e224]
+            - button "Block card Use if the card is lost or stolen" [ref=e228]:
+              - img [ref=e230]
+              - generic [ref=e232]:
+                - paragraph [ref=e233]: Block card
+                - paragraph [ref=e234]: Use if the card is lost or stolen
+              - img [ref=e235]
+            - button "Remove from wallet Delete this card from the app" [ref=e239]:
+              - img [ref=e241]
+              - generic [ref=e243]:
+                - paragraph [ref=e244]: Remove from wallet
+                - paragraph [ref=e245]: Delete this card from the app
+              - img [ref=e246]
+  - button "Open Next.js Dev Tools" [ref=e168] [cursor=pointer]:
+    - img [ref=e169]
+  - alert [ref=e172]
