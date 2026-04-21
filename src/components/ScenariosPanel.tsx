@@ -116,6 +116,29 @@ export function ScenariosPanel({
           </button>
         </div>
       </div>
+
+      <ZoomNote />
+    </div>
+  );
+}
+
+function ZoomNote() {
+  const isMac =
+    typeof navigator !== "undefined" &&
+    /Mac|iPhone|iPod|iPad/i.test(navigator.platform);
+  const modifier = isMac ? "⌘" : "Ctrl";
+  return (
+    <div className="flex items-start gap-[6px] border-t border-white/10 pt-[10px] text-[11px] leading-[14px] text-white/45">
+      <span>
+        Doesn&apos;t fit? Press{" "}
+        <kbd className="rounded-[3px] bg-white/10 px-[4px] py-[1px] font-mono text-[10px] text-white/70">
+          {modifier}
+        </kbd>{" "}
+        <kbd className="rounded-[3px] bg-white/10 px-[4px] py-[1px] font-mono text-[10px] text-white/70">
+          −
+        </kbd>{" "}
+        to zoom out.
+      </span>
     </div>
   );
 }

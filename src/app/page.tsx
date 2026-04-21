@@ -12,7 +12,6 @@ import { RecipientFlow } from "@/components/RecipientFlow";
 import { SendMoneyScreen } from "@/screens/SendMoneyScreen";
 import { TransferResultScreen } from "@/screens/TransferResultScreen";
 import { ScenariosPanel, type Scenarios } from "@/components/ScenariosPanel";
-import { ZoomHint } from "@/components/ZoomHint";
 import { PaymentMethodSheet, type PaymentMethod } from "@/components/PaymentMethodSheet";
 import type { Recipient } from "@/lib/sendMoney";
 import { INITIAL_CARDS } from "@/lib/cards";
@@ -118,7 +117,6 @@ export default function Page() {
 
   return (
     <DeviceFrame>
-      <ZoomHint />
       <ScenariosPanel
         scenarios={scenarios}
         onChange={setScenarios}
